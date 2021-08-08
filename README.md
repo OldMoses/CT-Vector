@@ -77,7 +77,7 @@ root directory\
 		ctvector###.bas
 		default.ini
 		readmectv.txt
-		sysinputIII.bas
+		sysinput###.bas
 
 
 NOTES:
