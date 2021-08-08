@@ -42,7 +42,7 @@ will create ..\scenarios\autosave automatically if they are not already present.
 The user is responsible for keeping track of additional subdirectories, such as
 sector and/or subsector arrangements.
 
-root directory
+root directory\
 
     		images\
 			arialbd.ttf
