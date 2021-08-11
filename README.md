@@ -1,5 +1,5 @@
 # CT-Vector
-A 1000 second turn based ship vector utility
+A 1000 second turn based ship vector utility, written in QB64
 
 DEVELOPMENT AND USE NOTES:
 
