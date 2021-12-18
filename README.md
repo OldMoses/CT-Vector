@@ -46,8 +46,10 @@ root directory\
 
     		images\
 			arialbd.ttf
+			disabled.png
 			flag.png
 			moon1.jpg
+			ovrthrust.png
 			slave.png
 			starfield.jpg
 			suleimano.png
