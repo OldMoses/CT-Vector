@@ -1,31 +1,31 @@
 $COLOR:32
 
-'ІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІ
-'І ЙНННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННН» І
-'І є ЙНННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННН» є І
-'І є є                     CT-Vector (formerly Star Ruttier)                      є є І
-'І є МНННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННН№ є І
-'І є є 2D6 Sci Fi roleplaying utility inspired by Classic Traveller starship      є є І
-'І є є combat tabletop rules.                                                     є є І
-'І є є coding by Richard Wessel using  QB64 v.1.5                                 є є І
-'І є є user must have v.1.5 or later to compile, available at www.qb64.org        є є І
-'І є є                                                                            є є І
-'І є є Made possible with guidance and code contributions by Bplus, Petr,         є є І
-'І є є SMcNeill, SierraKen, FellippeHeitor and many others at QB64.org forum.     є є І
-'І є є Thank you.                                                                 є є І
-'І є є                                                                            є є І
-'І є є Thanks to my son Erik for the idea to include an auto counter thrust,      є є І
-'І є є as well as listening to the endless blather.                               є є І
-'І є є                                                                            є є І
-'І є є Development and beta test version 0.50  uploaded __-__-2021                є є І
-'І є є                                                                            є є І
-'І є є The Traveller game in all forms is owned by Far Future Enterprises.        є є І
-'І є є Copyright 1977 - 2008 Far Future Enterprises.                              є є І
-'І є є see SUB Comments for full fair use text and development notes.             є є І
-'І є є                                                                            є є І
-'І є ИННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННј є І
-'І ИННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННј І
-'ІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІ
+'ВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІ
+'ВІ Г‰ГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌВ» ВІ
+'ВІ Вє Г‰ГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌВ» Вє ВІ
+'ВІ Вє Вє                     CT-Vector (formerly Star Ruttier)                      Вє Вє ВІ
+'ВІ Вє ГЊГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌВ№ Вє ВІ
+'ВІ Вє Вє 2D6 Sci Fi roleplaying utility inspired by Classic Traveller starship      Вє Вє ВІ
+'ВІ Вє Вє combat tabletop rules.                                                     Вє Вє ВІ
+'ВІ Вє Вє coding by Richard Wessel using  QB64 v.1.5                                 Вє Вє ВІ
+'ВІ Вє Вє user must have v.1.5 or later to compile, available at www.qb64.org        Вє Вє ВІ
+'ВІ Вє Вє                                                                            Вє Вє ВІ
+'ВІ Вє Вє Made possible with guidance and code contributions by Bplus, Petr,         Вє Вє ВІ
+'ВІ Вє Вє SMcNeill, SierraKen, FellippeHeitor and many others at QB64.org forum.     Вє Вє ВІ
+'ВІ Вє Вє Thank you.                                                                 Вє Вє ВІ
+'ВІ Вє Вє                                                                            Вє Вє ВІ
+'ВІ Вє Вє Thanks to my son Erik for the idea to include an auto counter thrust,      Вє Вє ВІ
+'ВІ Вє Вє as well as listening to the endless blather.                               Вє Вє ВІ
+'ВІ Вє Вє                                                                            Вє Вє ВІ
+'ВІ Вє Вє Development and beta test version 0.50  uploaded 12-18-2021                Вє Вє ВІ
+'ВІ Вє Вє                                                                            Вє Вє ВІ
+'ВІ Вє Вє The Traveller game in all forms is owned by Far Future Enterprises.        Вє Вє ВІ
+'ВІ Вє Вє Copyright 1977 - 2008 Far Future Enterprises.                              Вє Вє ВІ
+'ВІ Вє Вє see SUB Comments for full fair use text and development notes.             Вє Вє ВІ
+'ВІ Вє Вє                                                                            Вє Вє ВІ
+'ВІ Вє Г€ГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌВј Вє ВІ
+'ВІ Г€ГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌГЌВј ВІ
+'ВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІВІ
 
 '                                                               USER DEFINED VARIABLES
 TYPE V3 '                                                       R3 ship/planet vector movement or position
@@ -187,21 +187,21 @@ DIM SHARED ft14&
 DIM SHARED ft12&
 
 DIM SHARED togs AS _UNSIGNED LONG '                             Display/Control toggles
-'                                                               Undo toggle- prevents more than one turn undo       togs bit=0  і AND 1
-'                                                               Z-pan toggle (hotkey 3).............................togs bit=1  і AND 2
-'                                                               Azimuth wheel toggle (hotkey a)                     togs bit=2  і AND 4
-'                                                               Grid toggle (hotkey g)..............................togs bit=3  і AND 8
-'                                                               Ranging circle toggle (hotkey r)                    togs bit=4  і AND 16
-'                                                               Inclinometer toggle (hotkey i)......................togs bit=5  і AND 32
-'                                                               Jump diameter toggle (hotkey j)                     togs bit=6  і AND 64
-'                                                               Orbit track display toggle (hotkey o)...............togs bit=7  і AND 128
-'                                                               Gravity zone toggle (hotkey z)                      togs bit=8  і AND 256
-'                                                               Jump diameters or density (hotkey d)................togs bit=9  і AND 512
-'                                                               Belt/ring display toggle (hotkey b)                 togs bit=10 і AND 1024
-'                                                               Block move mode (mouse only)........................togs bit=11 і AND 2048
-'                                                               Collision check mode (mouse only)                   togs bit=12 і AND 4096
-'                                                               3D mode=1 / 2D mode=0 (initial parameter only)......togs bit=13 і AND 8192
-'                                                               Rank show TRUE/FALSE (hotkey #)                     togs bit=14 і AND 16384
+'                                                               Undo toggle- prevents more than one turn undo       togs bit=0  Ві AND 1
+'                                                               Z-pan toggle (hotkey 3).............................togs bit=1  Ві AND 2
+'                                                               Azimuth wheel toggle (hotkey a)                     togs bit=2  Ві AND 4
+'                                                               Grid toggle (hotkey g)..............................togs bit=3  Ві AND 8
+'                                                               Ranging circle toggle (hotkey r)                    togs bit=4  Ві AND 16
+'                                                               Inclinometer toggle (hotkey i)......................togs bit=5  Ві AND 32
+'                                                               Jump diameter toggle (hotkey j)                     togs bit=6  Ві AND 64
+'                                                               Orbit track display toggle (hotkey o)...............togs bit=7  Ві AND 128
+'                                                               Gravity zone toggle (hotkey z)                      togs bit=8  Ві AND 256
+'                                                               Jump diameters or density (hotkey d)................togs bit=9  Ві AND 512
+'                                                               Belt/ring display toggle (hotkey b)                 togs bit=10 Ві AND 1024
+'                                                               Block move mode (mouse only)........................togs bit=11 Ві AND 2048
+'                                                               Collision check mode (mouse only)                   togs bit=12 Ві AND 4096
+'                                                               3D mode=1 / 2D mode=0 (initial parameter only)......togs bit=13 Ві AND 8192
+'                                                               Rank show TRUE/FALSE (hotkey #)                     togs bit=14 Ві AND 16384
 '                                                               bit 15-31 for future expansions
 
 '                                                               DEBUGGING VARIABLES (if any present for beta testing)
@@ -367,7 +367,7 @@ DATA "SysDefBoat",6,-670000,231000,0,0,0,0,-1
 '                                                               BEGIN SUB/FUNCTION SECTION
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Add_Ship
 
     'Appends new ship to list- reconfigures sensor array
@@ -414,7 +414,7 @@ SUB Add_Ship
 END SUB 'Add_Ship
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Auto_Move (tar AS INTEGER, sol AS INTEGER, mode AS INTEGER)
 
     ' Calculate and issue automated maneuvers to return to Move_Turn
@@ -466,18 +466,18 @@ SUB Auto_Move (tar AS INTEGER, sol AS INTEGER, mode AS INTEGER)
 
     SELECT CASE mode '                                          what mode of automove are we executing?
         CASE IS = 1
-            'ЪДДДДДДДДДДДДДДДДДДВДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
-            'і EVADE            і {sol} seeks to avoid target lock range with selected unit {tar} WORKING
-            'АДДДДДДДДДДДДДДДДДДБДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
+            'ГљГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г‚Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
+            'Ві EVADE            Ві {sol} seeks to avoid target lock range with selected unit {tar} WORKING
+            'ГЂГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„ГЃГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
             tarfut = tarpos: Vec_Add tarfut, tarmov, 1 '        compute projected future target position
             solfut = solpos: Vec_Add solfut, solmov, 1 '        compute projected future solution position
             clsmov = tarfut: Vec_Add clsmov, solfut, -1 '       vector between future positions
             Vec_Mult clsmov, -1 '                               invert for escape vector
             Vec_2_Thrust Thrust(sol), clsmov, cmb(sol).MaxG '   initiate evading thrust
         CASE IS = 2
-            'ЪДДДДДДДДДДДДДДДДДДВДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
-            'і INTERCEPT        і {sol} seek to close to target lock range with selected unit {tar} WORKING
-            'АДДДДДДДДДДДДДДДДДДБДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
+            'ГљГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г‚Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
+            'Ві INTERCEPT        Ві {sol} seek to close to target lock range with selected unit {tar} WORKING
+            'ГЂГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„ГЃГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
             IF NOT Sensor(sol, tar) AND 1 THEN '                if sensors are not occluded
                 Vec_Add tarpos, solpos, -1: solpos = origin '   we'll set relative positions
                 ds## = PyT(3, solpos, tarpos)
@@ -511,9 +511,9 @@ SUB Auto_Move (tar AS INTEGER, sol AS INTEGER, mode AS INTEGER)
                 Vec_2_Thrust Thrust(sol), clsmov, cmb(sol).MaxG
             END IF '                                            end: sensor occlusion test
         CASE IS = 3
-            'ЪДДДДДДДДДДДДДДДДДДВДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
-            'і PLANETFALL       і {sol} conducts a landing operation on selected world {tar} WORKING
-            'АДДДДДДДДДДДДДДДДДДБДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
+            'ГљГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г‚Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
+            'Ві PLANETFALL       Ві {sol} conducts a landing operation on selected world {tar} WORKING
+            'ГЂГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„ГЃГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
             DIM AS V3U offrad
             Vec_Add tarpos, solpos, -1: solpos = origin '       we'll set relative positions
             ds## = PyT(3, solpos, tarpos) - hvns(tar).radi '    distance to planetary surface
@@ -543,9 +543,9 @@ SUB Auto_Move (tar AS INTEGER, sol AS INTEGER, mode AS INTEGER)
                 Vec_2_Thrust Thrust(sol), clsmov, cmb(sol).MaxG
             END IF
         CASE IS = 4
-            'ЪДДДДДДДДДДДДДДДДДДВДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
-            'і ORBIT            і {sol} maintains an orbit around selected world {tar}, works erratically
-            'АДДДДДДДДДДДДДДДДДДБДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
+            'ГљГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г‚Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
+            'Ві ORBIT            Ві {sol} maintains an orbit around selected world {tar}, works erratically
+            'ГЂГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„ГЃГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
             'What's coming in
             '   cmb(sol).bogey = Closest_Rank_Body(sol, 2)
             '   cmb(sol).bstat = 4  'obviously, or we wouldn't be in case #4
@@ -582,17 +582,17 @@ SUB Auto_Move (tar AS INTEGER, sol AS INTEGER, mode AS INTEGER)
 
             ''see orbit problem.txt for code history
         CASE IS = 5
-            'ЪДДДДДДДДДДДДДДДДДДВДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
-            'і FLEET FORMATION  і {sol} follows thrust orders of a selected flagship {tar) WORKING
-            'АДДДДДДДДДДДДДДДДДДБДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
+            'ГљГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г‚Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
+            'Ві FLEET FORMATION  Ві {sol} follows thrust orders of a selected flagship {tar) WORKING
+            'ГЂГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„ГЃГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
             Thrust(sol).Azi = Thrust(tar).Azi '                 sol duplicates thrust orders of tar
             Thrust(sol).Inc = Thrust(tar).Inc
             'accelerate with tar, but only to unit's own drive limits
             Thrust(sol).Gs = Thrust(tar).Gs + ((Thrust(tar).Gs - cmb(sol).MaxG) * (Thrust(tar).Gs > cmb(sol).MaxG))
         CASE IS = 6
-            'ЪДДДДДДДДДДДДДДДДДДВДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
-            'і STATION KEEPING  і {sol} maintains a position relative to a selected body {tar} WORKING
-            'АДДДДДДДДДДДДДДДДДДБДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
+            'ГљГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г‚Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
+            'Ві STATION KEEPING  Ві {sol} maintains a position relative to a selected body {tar} WORKING
+            'ГЂГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„ГЃГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
             Vec_Add clsmov, tarmov, 1
             Vec_Add clsmov, solmov, -1
             IF PyT(3, cmb(sol).ap, hvns(cmb(sol).bogey).ps) <> cmb(sol).bdata THEN 'if station distance changes
@@ -605,9 +605,9 @@ SUB Auto_Move (tar AS INTEGER, sol AS INTEGER, mode AS INTEGER)
             END IF
             Vec_2_Thrust Thrust(sol), clsmov, cmb(sol).MaxG
         CASE IS = 7
-            'ЪДДДДДДДДДДДДДДДДДДВДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
-            'і SAFE JUMP POINT  і {sol} maneuvers to the nearest safe jump distance
-            'АДДДДДДДДДДДДДДДДДДБДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД
+            'ГљГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г‚Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
+            'Ві SAFE JUMP POINT  Ві {sol} maneuvers to the nearest safe jump distance
+            'ГЂГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„ГЃГ„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„Г„
             DIM AS V3 s2t, s2p, lvt, lvp
             redoo:
             tr = hvns(tar).rank
@@ -680,7 +680,7 @@ SUB Auto_Move (tar AS INTEGER, sol AS INTEGER, mode AS INTEGER)
 END SUB 'Auto_Move
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Az_From_Parent (var AS INTEGER)
 
     'called from: various
@@ -691,7 +691,7 @@ FUNCTION Az_From_Parent (var AS INTEGER)
 END FUNCTION 'Az_From_Parent
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Azimuth! (x AS _INTEGER64, y AS _INTEGER64)
 
     'Returns the azimuth bearing of a relative (x,y) offset
@@ -706,7 +706,7 @@ FUNCTION Azimuth! (x AS _INTEGER64, y AS _INTEGER64)
 END FUNCTION 'Azimuth!
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Azimuth_Wheel
 
     'Draw Azimuth wheel display
@@ -734,7 +734,7 @@ SUB Azimuth_Wheel
 END SUB 'Azimuth_Wheel
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Bad_Install (var AS STRING, var2 AS _BYTE)
 
     'called from: various
@@ -756,7 +756,7 @@ SUB Bad_Install (var AS STRING, var2 AS _BYTE)
 END SUB 'Bad_Install
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Bearing (unit AS INTEGER)
 
     'determine azimuth bearing on ecliptic plane of 'unit' from viewpoint
@@ -768,7 +768,7 @@ FUNCTION Bearing (unit AS INTEGER)
 END FUNCTION 'Bearing
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Bevel_Button (xsiz AS INTEGER, ysiz AS INTEGER, col AS _UNSIGNED LONG)
 
     'Create control button bevels for 3D effect - called from Con_Blok & Make_Buttons
@@ -784,7 +784,7 @@ SUB Bevel_Button (xsiz AS INTEGER, ysiz AS INTEGER, col AS _UNSIGNED LONG)
 END SUB 'Bevel_Button
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Build_Str (main AS STRING, allow AS STRING, kp AS STRING)
 
     'Build a string out of allowable characters
@@ -804,7 +804,7 @@ SUB Build_Str (main AS STRING, allow AS STRING, kp AS STRING)
 END SUB 'Build_Str
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Button_Block
 
     'MANEUVER AND PROGRAM CONTROLS under data blocks and orientation screen
@@ -902,7 +902,7 @@ SUB Button_Block
 END SUB 'Button_Block
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Cancel_AI (var AS _BYTE, var2 AS INTEGER)
 
     'Eliminate AI orders targeting a particular unit
@@ -926,7 +926,7 @@ SUB Cancel_AI (var AS _BYTE, var2 AS INTEGER)
 END SUB 'Cancel_AI
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Choose_World% (header AS STRING, mode AS _BYTE)
 
     'Display world list, click on desired world and its index number is returned
@@ -979,7 +979,7 @@ FUNCTION Choose_World% (header AS STRING, mode AS _BYTE)
 END FUNCTION 'Choose_World
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Clear_MB (var AS INTEGER)
 
     'Clear mousebutton var buffer clicks to prevent click thru errors
@@ -990,7 +990,7 @@ SUB Clear_MB (var AS INTEGER)
 END SUB 'Clear_MB
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Closest_Rank_Body (var AS INTEGER, var2 AS INTEGER)
 
     'Find closest body of rank var2 to unit var. Shorter and sweeter in 0.4.4
@@ -1014,7 +1014,7 @@ FUNCTION Closest_Rank_Body (var AS INTEGER, var2 AS INTEGER)
 END FUNCTION 'Closest_Rank_Body
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Col_Check (var AS INTEGER)
 
     'Check for collision between unit 'var' and any planetary bodies
@@ -1065,7 +1065,7 @@ SUB Col_Check (var AS INTEGER)
 END SUB 'Col_Check
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Col_Check_Ship (var AS INTEGER)
 
     'Check for proximity to other vessels
@@ -1088,7 +1088,7 @@ SUB Col_Check_Ship (var AS INTEGER)
 END SUB 'Col_Check_Ship
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Coming
 
     Refresh
@@ -1101,7 +1101,7 @@ SUB Coming
 END SUB 'Coming
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Comments
 
     'FAIR USE STATEMENT:
@@ -1246,11 +1246,11 @@ SUB Comments
     'Scenario files: <file_name>.tfs
     '
     '<root>\applications
-    '      ГД images\various
-    '      ГД scenarios\*.tfs
-    '      і           АД autosave\auto.tfs
-    '      ГД ships\*.tvg
-    '      АД systems\*.tss
+    '      ГѓГ„ images\various
+    '      ГѓГ„ scenarios\*.tfs
+    '      Ві           ГЂГ„ autosave\auto.tfs
+    '      ГѓГ„ ships\*.tvg
+    '      ГЂГ„ systems\*.tss
 
     'ALGORITHMIC STRUCTURE
     'Initial entry occurs at SUB Gate_Keeper and SUB Set_Up
@@ -1267,12 +1267,12 @@ SUB Comments
 
     'DISPLAY SCHEME for ship_box(x) {290,96} w/ red bounding box
     '  0           <0------36 columns------289>
-    '  В    line 1 (0,0)  ID (31,0)Name/no signal (119,0)PROX # (241,0)trans icon  (273,0)flag icon
-    '  і    line 2 (0,16) X:######### Y:######## Z:########
-    '  і    line 3 (0,32) Spd:#####.##kps (128,32)Hdg:###.## (216,32)Z:##.##
-    '  і    line 4 (0,48) Brng: (40,48)###.# (88,48)Z:-##.## (160,48)Dist:
-    '  і    line 5 (0,64) [EVADE] (49,64)[INTERCEPT] (130,64)[FLEET/BREAK] (234,64)flag#  (252,64)slave icon  (273,64)tlock icons
-    '  Б    line 6 (0,80) targeting/targeted by/destroyed messages
+    '  Г‚    line 1 (0,0)  ID (31,0)Name/no signal (119,0)PROX # (241,0)trans icon  (273,0)flag icon
+    '  Ві    line 2 (0,16) X:######### Y:######## Z:########
+    '  Ві    line 3 (0,32) Spd:#####.##kps (128,32)Hdg:###.## (216,32)Z:##.##
+    '  Ві    line 4 (0,48) Brng: (40,48)###.# (88,48)Z:-##.## (160,48)Dist:
+    '  Ві    line 5 (0,64) [EVADE] (49,64)[INTERCEPT] (130,64)[FLEET/BREAK] (234,64)flag#  (252,64)slave icon  (273,64)tlock icons
+    '  ГЃ    line 6 (0,80) targeting/targeted by/destroyed messages
     ' 95
 
     'TRAVEL FORMULAE (from Traveller Book)
@@ -1324,7 +1324,7 @@ SUB Comments
 END SUB 'Comments
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Con_Blok (xpos AS INTEGER, ypos AS INTEGER, xsiz AS INTEGER, ysiz AS INTEGER, label AS STRING, high AS INTEGER, col AS _UNSIGNED LONG)
 
     'Create control block
@@ -1362,7 +1362,7 @@ SUB Con_Blok (xpos AS INTEGER, ypos AS INTEGER, xsiz AS INTEGER, ysiz AS INTEGER
 END SUB 'Con_Blok
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Coord_Update (var AS INTEGER)
 
     'updates cmb(var).ap
@@ -1383,7 +1383,7 @@ SUB Coord_Update (var AS INTEGER)
 END SUB 'Coord_Update
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Dev_Grid
 
     'visual postioning aid for development
@@ -1404,7 +1404,7 @@ SUB Dev_Grid
 END SUB 'Dev_Grid
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Dialog_Box (heading AS STRING, xsiz AS INTEGER, ysiz AS INTEGER, ypos AS INTEGER, bcol AS _UNSIGNED LONG, tcol AS _UNSIGNED LONG)
 
     'superimpose an image centered input box for various input routines
@@ -1426,7 +1426,7 @@ SUB Dialog_Box (heading AS STRING, xsiz AS INTEGER, ysiz AS INTEGER, ypos AS INT
 END SUB 'Dialog_Box
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Draw_Ring_Belt (cntr AS V3, rng AS _INTEGER64, in AS _INTEGER64, rat AS SINGLE)
 
     'Draw Asteroid belts and ring systems
@@ -1466,7 +1466,7 @@ SUB Draw_Ring_Belt (cntr AS V3, rng AS _INTEGER64, in AS _INTEGER64, rat AS SING
 END SUB 'Draw_Ring_Belt
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Edit_Ship (var AS _BYTE)
 
     'called from: Main_Loop, Mouse_Button_Left, Add_Ship
@@ -1540,7 +1540,7 @@ SUB Edit_Ship (var AS _BYTE)
 END SUB 'Edit_Ship
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB FCirc (CX AS _INTEGER64, CY AS _INTEGER64, RR AS _INTEGER64, C AS _UNSIGNED LONG)
 
     'Steve's circle draw- called from: various
@@ -1569,7 +1569,7 @@ SUB FCirc (CX AS _INTEGER64, CY AS _INTEGER64, RR AS _INTEGER64, C AS _UNSIGNED 
 END SUB 'FCirc
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Find_Parent (var AS INTEGER)
 
     'called from: various
@@ -1581,7 +1581,7 @@ FUNCTION Find_Parent (var AS INTEGER)
 END FUNCTION 'Find_Parent
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Fix_Float$ (x##, dec AS INTEGER)
 
     'called from Ship_Display
@@ -1607,7 +1607,7 @@ FUNCTION Fix_Float$ (x##, dec AS INTEGER)
 END FUNCTION 'FixFloat##
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Flight_Plan
 
     'called from: Main_Loop, Mouse_Button_Left
@@ -1794,7 +1794,7 @@ SUB Flight_Plan
 END SUB 'Flight_Plan
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Frame_Sect% (feature AS V3, radius AS _INTEGER64, ratio AS SINGLE)
 
     'called from: Draw_Ring_Belt, System_Map
@@ -1815,7 +1815,7 @@ FUNCTION Frame_Sect% (feature AS V3, radius AS _INTEGER64, ratio AS SINGLE)
 END FUNCTION 'Frame_Sect%
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Gate_Keeper
 
     'Main program splash screen
@@ -1942,7 +1942,7 @@ SUB Gate_Keeper
 END SUB 'Gate_Keeper
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Get_Body_Vec (var AS INTEGER, var2 AS V3)
 
     'Compute the vector of planet var, returning in var2 | <var2.pX, var2.pY, var2.pZ>
@@ -1970,7 +1970,7 @@ SUB Get_Body_Vec (var AS INTEGER, var2 AS V3)
 END SUB 'Get_Body_Vec
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Grav_Force_Vec (gravvec AS V3, gravtarg AS V3, var AS INTEGER)
 
     'Returns a gravity acceleration vector {gravvec} applied by a planet {var} upon a position vector {gravtarg}
@@ -1987,7 +1987,7 @@ SUB Grav_Force_Vec (gravvec AS V3, gravtarg AS V3, var AS INTEGER)
 END SUB 'Grav_Force_Vec
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Grav_Well (var AS INTEGER, var2 AS _BYTE)
 
     'Determine gravity perturbations of nearby massive bodies, apply if var2 TRUE
@@ -2019,7 +2019,7 @@ SUB Grav_Well (var AS INTEGER, var2 AS _BYTE)
 END SUB 'Grav_Well
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Help
 
     'called from: Main_Loop, Mouse_Button_Left
@@ -2166,7 +2166,7 @@ SUB Help
 END SUB 'Help
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Hotkey_Ops (hk AS STRING, main AS _BYTE)
 
     'Process input hotkeys
@@ -2258,12 +2258,12 @@ SUB Hotkey_Ops (hk AS STRING, main AS _BYTE)
 END SUB 'Hotkey_ops
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Inc_Meter
 
     'called from: Sensor_Screen
     'display inclinometer scale
-    IF ABS(zangle) > .08727 THEN '                          If more than 5ш from vertical
+    IF ABS(zangle) > .08727 THEN '                          If more than 5Гё from vertical
         IF cmb(vpoint).In >= 0 THEN '                       Moving with or toward the zenith of the plane
             IF cmb(vpoint).Hd <= _PI THEN '                 right side
                 zdeg! = ABS(cmb(vpoint).In - 1.570796)
@@ -2296,7 +2296,7 @@ SUB Inc_Meter
 END SUB 'Inc_Meter
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Index_Ship (quan AS INTEGER, p AS _BYTE)
 
     'Re-index ship variables for new count, Sensor done in calling SUBs if necessary
@@ -2319,7 +2319,7 @@ SUB Index_Ship (quan AS INTEGER, p AS _BYTE)
 END SUB 'Index_Ship
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Info (u AS INTEGER, detail AS INTEGER)
 
     'display active unit detailed information box
@@ -2413,7 +2413,7 @@ SUB Info (u AS INTEGER, detail AS INTEGER)
 END SUB 'Info
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Intra_Turn_Vec_Map&& (vl%, stA AS V3, ndA AS V3, stB AS V3, ndB AS V3)
 
     'map distance between two moving vectors at vl% seconds in a turn
@@ -2430,7 +2430,7 @@ FUNCTION Intra_Turn_Vec_Map&& (vl%, stA AS V3, ndA AS V3, stB AS V3, ndB AS V3)
 END FUNCTION 'Intra_Turn_Vec_map&&
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Load_System
 
     'Load star system file
@@ -2464,7 +2464,7 @@ SUB Load_System
 END SUB 'Load_System
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Load_Ships
 
     'called from: Mouse_Button_Left
@@ -2572,7 +2572,7 @@ SUB Load_Ships
 END SUB 'Load_Ships
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Load_Scenario
 
     'called from: Mouse_Button_Left
@@ -2668,7 +2668,7 @@ SUB Load_Scenario
 END SUB 'Load_Scenario
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Make_Buttons
 
     'called from: Main Module
@@ -2843,7 +2843,7 @@ SUB Make_Buttons
 END SUB 'Make_Buttons
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Make_Images
 
     'called from: Main Module
@@ -2915,7 +2915,7 @@ SUB Make_Images
 END SUB 'Make_Images
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Main_Loop
 
     'Main program loop, awaiting and routing mouse or keyboard input.
@@ -2976,7 +2976,7 @@ SUB Main_Loop
 END SUB 'Main_Loop
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION map! (value!, minRange!, maxRange!, newMinRange!, newMaxRange!)
 
     'called from: various
@@ -2985,7 +2985,7 @@ FUNCTION map! (value!, minRange!, maxRange!, newMinRange!, newMaxRange!)
 END FUNCTION 'map!
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION map64&& (value!, minRange!, maxRange!, newMinRange&&, newMaxRange&&)
 
     map64&& = ((value! - minRange!) / (maxRange! - minRange!)) * (newMaxRange&& - newMinRange&&) + newMinRange&&
@@ -2993,7 +2993,7 @@ FUNCTION map64&& (value!, minRange!, maxRange!, newMinRange&&, newMaxRange&&)
 END FUNCTION 'map64&&
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION MBS% 'Mouse Button Status  by Steve McNeill
     STATIC StartTimer AS _FLOAT
     STATIC ButtonDown AS INTEGER
@@ -3047,12 +3047,12 @@ FUNCTION MBS% 'Mouse Button Status  by Steve McNeill
 END FUNCTION 'MBS%
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Mouse_Button_Left (xpos AS INTEGER, ypos AS INTEGER)
 
     'called from: Main_Loop
     SELECT CASE xpos
-        CASE 0 TO 559 '                                         ЫЫЫLeft text displayЫЫЫ
+        CASE 0 TO 559 '                                         Г›Г›Г›Left text displayГ›Г›Г›
             SELECT CASE ypos '                                  Divide left into top and bottom
                 CASE 0 TO 575
                     SELECT CASE xpos '                          Divide upper left into ship and center display
@@ -3142,10 +3142,10 @@ SUB Mouse_Button_Left (xpos AS INTEGER, ypos AS INTEGER)
                     SELECT CASE xpos
                         CASE 0 TO 63 '                          Input a graphic vector order
                             New_Vector_Graph
-                        CASE 70 TO 133 '                        ІІІTO BE DETERMINEDІІІ
+                        CASE 70 TO 133 '                        ВІВІВІTO BE DETERMINEDВІВІВІ
                             Panel_Blank 70, 576, 64, 32
                             Coming
-                        CASE 140 TO 203 '                       ІІІTO BE DETERMINEDІІІ
+                        CASE 140 TO 203 '                       ВІВІВІTO BE DETERMINEDВІВІВІ
                             Panel_Blank 140, 576, 64, 32
                             Coming
                         CASE 210 TO 273 '                       Execute a game turn
@@ -3294,7 +3294,7 @@ SUB Mouse_Button_Left (xpos AS INTEGER, ypos AS INTEGER)
                     CASE 4 TO 321 '                             upper half of Z-panner
                         togs = _SETBIT(togs, 1)
                         zangle = map!(ypos, 321, 4, 0, -_PI / 2)
-                    CASE 322 TO 337 '                           0ш overhead block
+                    CASE 322 TO 337 '                           0Гё overhead block
                         togs = _RESETBIT(togs, 1)
                         zangle = 0
                     CASE 338 TO 653 '                           lower half of Z-panner
@@ -3328,7 +3328,7 @@ SUB Mouse_Button_Left (xpos AS INTEGER, ypos AS INTEGER)
 END SUB 'Mouse_Button_Left
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Mouse_Button_Right (xpos AS INTEGER, ypos AS INTEGER)
 
     'called from: Main_Loop
@@ -3468,7 +3468,7 @@ SUB Mouse_Button_Right (xpos AS INTEGER, ypos AS INTEGER)
 END SUB 'Mouse_Button_Right
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Move_Turn
 
     'Apply all unit movements
@@ -3522,7 +3522,7 @@ SUB Move_Turn
 END SUB 'Move_Turn
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB M_Turn_Undo
 
     'Undo the previous turn
@@ -3555,7 +3555,7 @@ SUB M_Turn_Undo
 END SUB 'M_Turn_Undo
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB New_Vector
 
     'Text based vector input
@@ -3601,7 +3601,7 @@ SUB New_Vector
 END SUB 'New_Vector
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB New_Vector_Graph
 
     IF cmb(vpoint).bstat = 5 OR cmb(vpoint).status = 3 THEN '   If in fleet formation or disabled
@@ -3625,8 +3625,8 @@ SUB New_Vector_Graph
         Panel_Blank 0, 578, 64, 32 '                            dim vector button
         _DISPLAY
         togs = _RESETBIT(togs, 1) '                             Z panning to overhead view for azimuth input
-        zangle = 0 '                                            set to overhead angle 0ш
-        Re_Calc '                                               recalculate coordinates for 0ш view
+        zangle = 0 '                                            set to overhead angle 0Гё
+        Re_Calc '                                               recalculate coordinates for 0Гё view
         Refresh '                                               refresh view at that angle
         'Conduct graphic based vector input
         SST& = _NEWIMAGE(620, 620, 32) '                        Vector input overlay
@@ -3696,13 +3696,13 @@ SUB New_Vector_Graph
             togs = _SETBIT(togs, 1) '                           toggle Z-panning to <ON>
             togs = _SETBIT(togs, 5) '                           toggle inclinometer to <ON>
             togs = _RESETBIT(togs, 7) '                         toggle orbit tracks to <OFF>
-            zangle = _PI / 2 '                                  display angle 90ш
-            Re_Calc '                                           recalculate for Z angle of 90ш display coordinates
+            zangle = _PI / 2 '                                  display angle 90Гё
+            Re_Calc '                                           recalculate for Z angle of 90Гё display coordinates
             Refresh '                                           refresh display at that angle
             _DEST SSR&
             CLS
             _CLEARCOLOR _RGBA(0, 0, 0, 0)
-            FCirc 0, 0, 100, &H3000FF00 '                       display 0ш inclination green zone
+            FCirc 0, 0, 100, &H3000FF00 '                       display 0Гё inclination green zone
             _DEST SST&
             DO '                                                Inclination display loop
                 CLS
@@ -3762,7 +3762,7 @@ SUB New_Vector_Graph
 END SUB 'New_Vector_Graph
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Off_Button (var AS LONG, xpos AS INTEGER, ypos AS INTEGER)
 
     'Darkens controls that are turned off
@@ -3777,7 +3777,7 @@ SUB Off_Button (var AS LONG, xpos AS INTEGER, ypos AS INTEGER)
 END SUB 'Off_Button
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Options
 
     'Alter some parameters to reflect house rule changes UNDER CONSTRUCTION
@@ -3964,7 +3964,7 @@ SUB Options
 END SUB 'Options
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Ori_Screen (var AS _BYTE)
 
     'display orientation graphic and place and move stars according to heading and speed; var=active
@@ -4040,7 +4040,7 @@ SUB Ori_Screen (var AS _BYTE)
 END SUB 'Ori_Screen
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Panel_Blank (xpos AS INTEGER, ypos AS INTEGER, xsiz AS INTEGER, ysiz AS INTEGER)
 
     'Background blank to mark and mask button use and/or changes
@@ -4054,7 +4054,7 @@ SUB Panel_Blank (xpos AS INTEGER, ypos AS INTEGER, xsiz AS INTEGER, ysiz AS INTE
 END SUB 'Panel_Blank
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Planet_Dist
 
     'Show distances to major system bodies in center top screen
@@ -4173,7 +4173,7 @@ SUB Planet_Info (var AS INTEGER)
 END SUB 'Planet_Info
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Planet_Move (var AS _BYTE)
 
     'Apply turn movement to planetary bodies- var=turncount (1 for normal turn, -1 for undo, 0 for initial setup)
@@ -4219,7 +4219,7 @@ SUB Planet_Move (var AS _BYTE)
 END SUB 'Planet_Move
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Polar_2_Vec (vec AS V3, mag AS _INTEGER64, inc AS SINGLE, azi AS SINGLE)
 
     'Converts polar direction to vector- Note:Trig functions reversed for this application
@@ -4230,7 +4230,7 @@ SUB Polar_2_Vec (vec AS V3, mag AS _INTEGER64, inc AS SINGLE, azi AS SINGLE)
 END SUB 'Polar_2_Vec
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Press_Click
 
     'Pauses and waits for key press or left click to continue
@@ -4246,7 +4246,7 @@ SUB Press_Click
 END SUB 'Press_Click
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Prnt (text AS STRING, wsize AS SINGLE, hsize AS SINGLE, StartX AS _INTEGER64, StartY AS _INTEGER64,_
     Xspace AS INTEGER, Yspace AS INTEGER, col AS _UNSIGNED LONG)
 
@@ -4293,7 +4293,7 @@ SUB Prnt (text AS STRING, wsize AS SINGLE, hsize AS SINGLE, StartX AS _INTEGER64
 END SUB 'Prnt
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Prop!
 
     'find the relative offsets of all units to the active unit and resize
@@ -4322,7 +4322,7 @@ FUNCTION Prop!
 END FUNCTION 'Prop!
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION PyT (var AS _BYTE, var1 AS V3, var2 AS V3)
 
     'find distance/magnitude between 2D or 3D points
@@ -4336,7 +4336,7 @@ FUNCTION PyT (var AS _BYTE, var1 AS V3, var2 AS V3)
 END FUNCTION 'PyT
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Rank_Max%
 
     FOR x% = 1 TO orbs
@@ -4347,7 +4347,7 @@ FUNCTION Rank_Max%
 END FUNCTION 'Rank_Max%
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Ray_Trace## (var1 AS V3, var2 AS V3, var3 AS V3, var4 AS _INTEGER64)
 
     'Check for Line Of Sight for sensor occlusion
@@ -4364,7 +4364,7 @@ FUNCTION Ray_Trace## (var1 AS V3, var2 AS V3, var3 AS V3, var4 AS _INTEGER64)
 END FUNCTION 'Ray_Trace##
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Re_Calc
 
     'Relative/Display Vector Coordinate System- formerly separate SUB VCS
@@ -4411,7 +4411,7 @@ SUB Re_Calc
 END SUB 'ReCalc
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Refresh
 
     'Redraw main program screen using current data
@@ -4425,7 +4425,7 @@ SUB Refresh
 END SUB 'Refresh
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Remove_Units (mode AS _BYTE)
 
     'Delete active {mode -1}, or purge destroyed {mode 0}, ships from session
@@ -4530,7 +4530,7 @@ SUB Remove_Units (mode AS _BYTE)
 END SUB 'Remove_Units
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB RotoZoom3 (X AS LONG, Y AS LONG, Image AS LONG, xScale AS SINGLE, yScale AS SINGLE, radianRotation AS SINGLE)
 
     'With grateful thanks to Galleon and Bplus for this SUB, wish I was this good...
@@ -4553,7 +4553,7 @@ SUB RotoZoom3 (X AS LONG, Y AS LONG, Image AS LONG, xScale AS SINGLE, yScale AS 
 END SUB 'RotoZoom3
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Satellite_Move (var AS INTEGER, mov AS V3)
 
     'Move all satellites and sub-satellites of {var} by var's turn movement vector {mov}
@@ -4570,7 +4570,7 @@ SUB Satellite_Move (var AS INTEGER, mov AS V3)
 END SUB 'Satellite_Move
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Save_Ini
 
     f$ = "default.ini"
@@ -4588,7 +4588,7 @@ SUB Save_Ini
 END SUB 'Save_Ini
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Save_Scenario (var AS _BYTE)
 
     'Save the present scenario
@@ -4664,7 +4664,7 @@ SUB Save_Scenario (var AS _BYTE)
 END SUB 'Save_Scenario
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Save_Ships
 
     'Save the present ship list
@@ -4695,7 +4695,7 @@ SUB Save_Ships
 END SUB 'Save_Ships
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Save_System
 
     'Save a non-zero year system state
@@ -4741,7 +4741,7 @@ SUB Save_System
 END SUB 'Save_System
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Scene_Get (sysname AS STRING)
 
     'Loads all saved scenario data
@@ -4781,7 +4781,7 @@ SUB Scene_Get (sysname AS STRING)
 END SUB 'Scene_Get
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Screen_Limits
 
     'Create screen border info
@@ -4801,7 +4801,7 @@ SUB Screen_Limits
             CASE IS < -.7853982
                 bt$ = "NADIR facing rimward"
                 bb$ = "ZENITH facing rimward"
-            CASE -.7853982 TO .7853982 '                        within 45ш of vertical
+            CASE -.7853982 TO .7853982 '                        within 45Гё of vertical
                 bt$ = "COREWARD"
                 bb$ = "RIMWARD"
             CASE IS > .7853982
@@ -4833,7 +4833,7 @@ SUB Screen_Limits
 END SUB 'Screen_Limits
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Sensor_Screen
 
     'Graphic navigation sensor screen
@@ -5015,7 +5015,7 @@ SUB Sensor_Screen
 END SUB 'Sensor_Screen
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Set_Up
 
     Planet_Move 0 '                                             Initial planet position determined by date
@@ -5055,7 +5055,7 @@ SUB Set_Up
 END SUB 'Set_Up
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Ship_Display
 
     'Create ship data displays
@@ -5282,7 +5282,7 @@ SUB Ship_Display
 END SUB 'Ship_Display
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Slope! (var1 AS V3, var2 AS V3)
 
     'returns radian declination of var1 point relative to var2
@@ -5293,7 +5293,7 @@ FUNCTION Slope! (var1 AS V3, var2 AS V3)
 END FUNCTION 'Slope!
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Surface_Gs! (dens AS SINGLE, radius AS _INTEGER64)
 
     Surface_Gs! = ((dens * ((4 / 3) * _PI * (radius * radius * radius))) / 26687)
@@ -5301,7 +5301,7 @@ FUNCTION Surface_Gs! (dens AS SINGLE, radius AS _INTEGER64)
 END FUNCTION 'Surface_Gs!
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Sys_Get (src AS _BYTE, sysname AS STRING, row AS INTEGER, col AS INTEGER)
 
     'Get system data
@@ -5324,7 +5324,7 @@ SUB Sys_Get (src AS _BYTE, sysname AS STRING, row AS INTEGER, col AS INTEGER)
 END SUB 'Sys_Get
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB System_Map (g AS SINGLE)
 
     'displays the star system
@@ -5557,7 +5557,7 @@ SUB System_Map (g AS SINGLE)
 END SUB 'System_Map
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Terminus
 
     'Free all images on exit
@@ -5583,7 +5583,7 @@ SUB Terminus
 END SUB 'Terminus
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Text_Bubble (xpos AS INTEGER, ypos AS INTEGER, remark AS STRING)
 
     'displays context help text bubbles at most program controls on right mouse click & hold
@@ -5632,7 +5632,7 @@ SUB Text_Bubble (xpos AS INTEGER, ypos AS INTEGER, remark AS STRING)
 END SUB 'Text_Bubble
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Turn_2_Clock (var AS INTEGER)
 
     'called from: Load_Scenario, Move_Turn, M_Turn_Undo
@@ -5645,7 +5645,7 @@ SUB Turn_2_Clock (var AS INTEGER)
 END SUB 'Turn_2_Clock
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Trunc_Coord (var AS _INTEGER64)
 
     'called from: Ship_Display
@@ -5661,7 +5661,7 @@ SUB Trunc_Coord (var AS _INTEGER64)
 END SUB 'Trunc_Coord
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Vec_Add (var AS V3, var2 AS V3, var3 AS INTEGER)
 
     'Add two vectors
@@ -5672,7 +5672,7 @@ SUB Vec_Add (var AS V3, var2 AS V3, var3 AS INTEGER)
 END SUB 'Vec_Add
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Vec_Cross (var AS V3, var2 AS V3, var3 AS V3)
 
     'Obtain cross product vector of vectors var2 and var3
@@ -5686,7 +5686,7 @@ SUB Vec_Cross (var AS V3, var2 AS V3, var3 AS V3)
 END SUB 'Vec_Cross
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Vec_Cross_Unit (var AS V3U, var2 AS V3U, var3 AS V3U)
 
     'Obtain cross product vector of unit vectors var2 and var3
@@ -5699,7 +5699,7 @@ END SUB 'Vec_Cross
 
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Vec_Dot (var AS V3, var2 AS V3)
 
     'Obtain scalar dot product between two V3 vectors
@@ -5708,7 +5708,7 @@ FUNCTION Vec_Dot (var AS V3, var2 AS V3)
 END FUNCTION 'Vec_Dot
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 FUNCTION Vec_Dot_Unit (var AS V3U, var2 AS V3U)
 
     Vec_Dot_Unit = var.x * var2.x + var.y * var2.y + var.z * var2.z
@@ -5716,7 +5716,7 @@ FUNCTION Vec_Dot_Unit (var AS V3U, var2 AS V3U)
 END FUNCTION 'Vec_Dot_Unit
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Vec_Mult (vec AS V3, multiplier AS SINGLE)
 
     'multiply vector by scalar value
@@ -5727,7 +5727,7 @@ SUB Vec_Mult (vec AS V3, multiplier AS SINGLE)
 END SUB 'Vec_Mult
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Vec_Mult_Unit (vec AS V3, vecu AS V3U, multiplier AS _INTEGER64)
 
     'multiply a unit vector (vecu) & return as a V3 (vec)
@@ -5738,7 +5738,7 @@ SUB Vec_Mult_Unit (vec AS V3, vecu AS V3U, multiplier AS _INTEGER64)
 END SUB 'Vec_Mult_Unit
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Vec_Rota (var AS V3)
 
     'rotate a location vector around X axis
@@ -5749,7 +5749,7 @@ SUB Vec_Rota (var AS V3)
 END SUB 'Vec_Rota
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Vec_2_Thrust (var AS Maneuver, var2 AS V3, lim AS SINGLE)
 
     'Change an input vector to a polar maneuver
@@ -5761,7 +5761,7 @@ SUB Vec_2_Thrust (var AS Maneuver, var2 AS V3, lim AS SINGLE)
 END SUB 'Vec_2_Thrust
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Vec_2_UVec (var AS V3, var2 AS V3U)
 
     'convert a V3 to V3U, return in var2
@@ -5781,7 +5781,7 @@ SUB Vec_2_UVec (var AS V3, var2 AS V3U)
 END SUB 'Vec_2_UVec
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Vector_Brake
 
     'Called from: Mouse_Button_Left, New_Vector
@@ -5804,7 +5804,7 @@ SUB Vector_Brake
 END SUB 'Vector_Brake
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 SUB Z_Panner
 
     'Draw Z-pan label
@@ -5856,7 +5856,7 @@ SUB Z_Panner
 END SUB 'Z_Panner
 
 
-'±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+'В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±В±
 
 
 
