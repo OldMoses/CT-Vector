@@ -76,6 +76,7 @@ root directory\
 			regina.tss
 			sol.tss <--this is the default load system
 
+		context.txt
 		ctvector###.bas
 		default.ini
 		readmectv.txt
