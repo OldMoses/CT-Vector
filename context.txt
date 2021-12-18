@@ -1,0 +1,315 @@
+<PLANETD>
+Planet information display
+Shows primary and all rank 2 planets if there is sufficient space.
+Rank 2 are all bodies that directly orbit the primary {rank 1} body.
+Left click to open a dialog for mouse selection among all bodies
+in the system. After choice is made, the chosen planet's details
+will be displayed.
+<0>
+<ORISCRN>
+Active unit orientation display
+A generic ship representation that shows yaw graphically, thrust & course
+heading information are displayed textually on mouse over. Background
+star movement gives a visual reference for drift direction.
+No associated hotkeys.
+<0>
+<FUTURE>
+Future Expansion slot
+<0>
+<VECTOR>
+Graphic vector input control
+Left click to input an active unit thrust vector via the sensor screen.
+With mouse cursor within the sensor screen, it is a two step process in 3D mode. 
+Step 1: is to pan the mouse cursor around the center of the screen to the
+desired azimuth heading, while panning the mouse away from the center to
+apply increasing thrust values. Applying a left click when the desired values
+are acheived. 
+Step 2: if 3D mode is used, likewise pan the cursor to obtain the desired 
+polar inclination. Clicking in the green center dot defaults to a zero inclination.
+It is also possible to enter azimuth and inclination via the keyboard.
+HOTKEY: 'v' for text based input dialog box, best for entering precise thrust.
+<0>
+<TURN>
+Turn execution control
+Left click to commit any and all input navigation orders to a game turn.
+One turn may be rolled back with the 'Undo' control, but only one.
+HOTKEY: 't'
+<0>
+<EDIT>
+Edit active unit control
+Left click to open the active unit editing dialog box. While in the box,
+the ships position, speed, heading and other flight parameters can be changed.
+Pressing <enter> in response to any data point, defaults to the present
+value.
+HOTKEY: 'e'
+<0>
+<DELETE>
+Delete active unit control
+Left click opens the active unit delete dialog box, giving the option
+to proceed with deletion or abort. Cancels all other unit moves that
+target the deleted unit, but does not change their present thrust vector.
+HOTKEY: 'Delete'
+<0>
+<LOADALL>
+Load scenario control
+Left click to open the load scenario dialog box. Input the 
+scenario name and the appropriate .tfs file will load
+HOTKEY: 'l'
+<0>
+<SAVEALL>
+Save scenario control
+Left click to open the save scenario dialog box. Assign a name
+and all data and present state will be saved under that name in
+the \scenarios directory. File extension = .tfs
+HOTKEY: 's'
+<0>
+<THRUST0>
+Thrust cut control
+Left click to cut thrust of the active unit. The ship will continue
+to coast at its accumulated coasting vector on subsequent turns, but
+no additional acceleration will be added.
+<0>
+<TRNSPNDR>
+Transponder toggle control
+Left click to toggle the on/off state of the active unit's 
+transponder. This may also be accomplished for any unit by left
+clicking the transponder icon in the unit's data display.
+<0>
+<DETAILS>
+Detailed information control
+Left click to display data detail of active unit. A durable dialog 
+box, needing active cancelation. Right clicking in the ship data 
+displays will also display this info, for any ship, but only while 
+the right mouse button is held down.
+<0>
+<UNDO>
+Undo turn control
+Left click to roll back results of a mistaken turn execution. 
+This can be done only once, until a subsequent turn resets the 
+turn system.
+HOTKEY: 'u'
+<0>
+<ADDSHIP>
+New ship insertion control
+Left click to add a new blank unit near the presently active unit
+and open the new ship input dialog box. Only the ship's drive G rating
+will be requested here. After drive rating input the new unit will be
+the active unit. Use the edit control to set up additional ship parameters.
+HOTKEY: 'Insert'
+<0>
+<PURGE>
+Purge control
+Left click to eliminate the data from units that have been destroyed
+in planetary collisions. This allows for a history as long as it's 
+desired, and reduced clutter once it's not.
+<0>
+<LOADSYS>
+Load stellar system control
+Left click to open the load system dialog box. Enter a named system from
+the \systems directory. The user will then be queried for a date reference
+for the purpose of adjusting planetary ephemeris. These are .tss file
+extensions and may be pregenerated using accompanying SYSINPUT utility.
+HOTKEY: 'alt l'
+<0>
+<SAVESYS>
+Save stellar system control
+Left click to open the save system dialog box. Input a name for the system.
+NOTE: Since systems are saved in the year 0 ephemeris state by the
+SYSINPUT utility, it should be noted that saving under the same name may
+alter the ephemeris data. If this is not desired, the system should have
+a different name than the original. 
+HOTKEY: 'alt s'
+<0>
+<BRAKE>
+Braking thrust control
+Left click to apply braking thrust to active unit. NOTE: active unit will
+use the same thrust level it had before the command is issued. If no thrust
+was applied, the unit will simply reverse its yaw and pitch. The new orders
+will not cancel automatically.To acheive a complete stop relative to system
+or planet, issue a Flightplan/Hold station/... command.
+<0>
+<OPTIONS>
+Default options menu access
+Left click to configure default options. These many be altered and saved
+to reflect any house rules that differ from Traveller rules.
+<0>
+<COL/CHK>
+Collision Checking On/Off Toggle
+Left click to toggle planetary collision checks on/off. If this control is
+off ships will pass through celestial features unharmed.
+<0>
+<HELP>
+Left click to access help summary page.
+HOTKEY: 'h'
+<0>
+<MOVALL>
+Movement mode toggle
+Left click to toggle moving of single unit or entire group. Group moves
+result when the control is lit. Will not affect units that have landed
+or been destroyed.
+<0>
+<ADRIFT>
+Disabled / Repaired toggle
+Left click to 'disable' or 'repair' active unit. Used to disable a ships
+capacity to maneuver due to 'battle damage'. Disabled ships are at the
+mercy of any gravity fields and may crash. Clicking repair will open a
+G rating dialog box that allows the assignment of reduced drive ratings
+to reflect any jury rigged battle damage repairs.
+<0>
+<LOADSHP>
+Load ship control
+Left click to open a load saved vessel group dialog box. Enter the name of
+the group to be loaded. The appropriate .tvg file will load from the ships\
+directory. Select whether to append (add) to, or replace any existing ships.
+HOTKEY: 'ctrl l'
+<0>
+<SAVESHP>
+Save ship control
+Left click to open the save present vessel group dialog box. Enter a vessel
+group name, which will be saved in the ships\ directory as a .tvg file.
+HOTKEY: 'ctrl s'
+<0>
+<ZOOMX>
+Zoom extents control
+Left click to set zoom factor to 1x. Factor 1 is defined as the zoom level
+sufficient to keep all units within the sensor screen. Excluding those 
+units that are beyond 1 light turn (300 million kms) from the active unit.
+Also accessible via mouse wheel 'third' button click when the mouse cursor
+is within the sensor screen limits.
+HOTKEY: 'x'
+<0>
+<ZOOM+>
+Zoom in control
+Left click to zoom in on active unit. Viewing area halved. Mousewheel also
+zooms when the mouse cursor is within sensor screen limits.
+HOTKEY: '+'
+<0>
+<ZOOM->
+Zoom out control
+Left click to zoom out from active unit. Viewing area doubled. Mousewheel 
+also zooms when the mouse cursor is within the sensor screen limits.
+HOTKEY: '-'
+<0>
+<RANGE>
+Range display toggle
+Left click to display/hide range bands. Red zone indicates close
+range, green zone indicates medium range, blue circle indicates
+target lock limit and red circle indicates target lock lost limit.
+Parameters can be changed in Options.
+HOTKEY: 'r'
+<0>
+<ORBIT>
+Orbit track display toggle
+Left click to display/hide orbit tracks. May aid in speeding up
+graphics rendering when turned off.
+HOTKEY: 'o'
+<0>
+<GRID>
+Grid display toggle
+Left click to display/hide sensor screen scale grid.
+HOTKEY: 'g'
+<0>
+<AZI>
+Azimuth wheel display toggle
+Left click to display/hide azimuth rose. Becomes visible
+when rotation is within 85 degrees of zenith view.
+HOTKEY: 'a'
+<0>
+<INC>
+Inclinometer wheel display toggle
+Left click to display/hide inclinometer rose. Becomes visible
+when rotation exceeds 5 degrees from zenith view.
+HOTKEY: 'i'
+<0>
+<JUMP>
+Jump zone display toggle
+Left click to display/hide jump diameters to give
+visual feedback when a unit can safely jump.
+HOTKEY: 'j'
+<0>
+<DIADENS>
+Diameter/Density option toggle
+Left click to toggle diameter or density based jump zones.
+Density can reduce jump diameters for most stars and gas giants,
+which some house rules may favor. Only available when jump zone 
+display is enabled.
+HOTKEY: 'd'
+<0>
+<QUIT>
+Program exit control
+Left click to end session. A final auto save file is created.
+relative path is ..\scenarios\auto\auto.tfs
+HOTKEY: 'q'
+<0>
+<ROTATE>
+Z-panning bar control
+left click along bar to rotate around X axis.
+3D mode only
+<0>
+<ROTOG>
+View angle toggle
+Left click to toggle between zenith view and preset rotation
+set using the rotation bar above.
+HOTKEY: '3'
+<0>
+<SHIPDATA>
+Ship data display
+Displays condensed unit data and various clickable icons for assigning
+maneuver orders as well as targeting and transponder state toggles.
+Left click, or use up/down arrow keys to choose active unit. 
+Right click and hold to display detailed data of any unit.
+If more than 6 units are in play the mouse wheel will scroll through
+the list when hovering in this field.
+<0>
+<GZONE>
+Gravity zone display toggle
+Left click to toggle green gravity force zones on/off. G zones are
+graduated in .25G increments from the outermost at .25G and proceeding
+inward, terminating at the surface of the star or planet. Smaller and
+less dense bodies may not have visible zones. See planetary information
+for actual surface gravity.
+HOTKEY: 'z'
+<0>
+<BELT>
+Belt / Ring display toggle
+Left click to toggle belt/ring display. If asteroid belt and ring systems
+are not necessary, it is advantageous to turn them off, as rendering these 
+features can slow down the program, particularly when rotation is off the
+vertical view.
+HOTKEY: 'b'
+<0>
+<PMAT>
+Jump in vector matching- a GM edit for jumpspace exit
+Left click to match newly arriving vessel's vector to match the nearest 
+rank 2 planetary body.
+<0>
+<LANDON>
+Go To & Land- a flight plan automation
+Left click to open the planet choice dialog box, then left click on
+the desired destination.
+<0>
+<ORBITP>
+Orbit Planetary Body- a flight plan automation
+Development in progress
+<0>
+<STKEEP>
+Station Keeping
+Left click to initiate a station keeping maneuver. The user will be
+queried for system, planet or moon. 'System' maintains the ship position
+relative to the system's primary, 'planet' maintains a station relative
+to the nearest rank 2 body and 'moon' a station relative to a rank 3
+body.
+<0>
+<SAFEJUMP>
+Safe Jump Point
+Left click to direct the active vessel to proceed at best speed to
+a safe jump point beyond 100 diameters from all local bodies.
+<0>
+<FLABORT>
+Abort
+Left click to exit this menu without choosing a flightplan.
+<0>
+<LAUNCH>
+Launch
+Left click to launch the active unit from a landed position.
+<0>
