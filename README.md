@@ -59,8 +59,7 @@ root directory\
 			trnsp0.png
 			trnsp1.png
 			tunlock.png
-		
-		include\
+		include/
 			getopen.bas
 			pipecomqb64.bas
 
