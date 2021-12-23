@@ -100,8 +100,10 @@ HOTKEY: 'Insert'
 <PURGE>
 Purge control
 Left click to eliminate the data from units that have been destroyed
-in planetary collisions. This allows for a history as long as it's 
-desired, and reduced clutter once it's not.
+in planetary collisions. Such units are not automatically deleted.
+This allows for a history as long as it's desired, and the use of
+'Purge' reduces screen clutter once it's not.
+HOTKEY: 'ctrl delete'
 <0>
 <LOADSYS>
 Load stellar system control
@@ -312,4 +314,9 @@ Left click to exit this menu without choosing a flightplan.
 <LAUNCH>
 Launch
 Left click to launch the active unit from a landed position.
+<0>
+<GAMETURN>
+Game turn counter
+Indicates number of game turns and clock time elapsed.
+Left click to open the reset dialog box
 <0>
