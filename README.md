@@ -59,6 +59,10 @@ root directory\
 			trnsp0.png
 			trnsp1.png
 			tunlock.png
+		
+		include\
+			getopen.bas
+			pipecomqb64.bas
 
     		scenarios\
 			demo.tfs
