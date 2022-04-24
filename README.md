@@ -3,9 +3,9 @@ A 1000 second turn based ship vector utility, written in QB64
 
 DEVELOPMENT AND USE NOTES:
 
-CT Vector is coded in QB64 version 1.5 (obtainable from qb64.org). Because of its
+CT Vector is coded in QB64 (obtainable from qb64phoenix.com). Because of its
 use of the latest functionality in its basic structure, particularly the new 
-BIT operators and dimension syntax, it will require at least version 1.5 to compile.
+BIT operators and dimension syntax, it will require version 1.5 or later to compile.
 
 INSTALLATION:
 
