@@ -19,7 +19,7 @@ $COLOR:32
 '² º º Thanks to my son Erik for the idea to include an auto counter thrust,      º º ²
 '² º º as well as listening to the endless blather.                               º º ²
 '² º º                                                                            º º ²
-'² º º Development and beta test version 0.52  uploaded 04-24-2021                º º ²
+'² º º Development and beta test version 0.52  uploaded 04-24-2022                º º ²
 '² º º                                                                            º º ²
 '² º º The Traveller game in all forms is owned by Far Future Enterprises.        º º ²
 '² º º Copyright 1977 - 2008 Far Future Enterprises.                              º º ²
